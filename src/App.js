@@ -1,11 +1,12 @@
-import './App.css';
+import './App.css'
+import Menu from './components/Menu'
 
 function App() {
   return (
-    <div>
-      <h1>Test</h1>
+    <div className='container'>
+      <Menu />
     </div>
   )
 }
 
-export default App;
+export default App
