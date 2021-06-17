@@ -1,8 +1,9 @@
 import React from 'react'
+import '../styles/Menu.css'
 
 const Menu = () => {
     return (
-        <div>
+        <div className='menu'>
             <h1>This is menu</h1>
         </div>
     )
