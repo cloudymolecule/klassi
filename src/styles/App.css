@@ -3,7 +3,6 @@ body {
 }
 
 .main-container {
-    background-color: blueviolet;
     min-width: 100%;
     min-height: 98vh;
     display: grid;
@@ -12,4 +11,26 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+        'menu'
+        'display'
+        'display'
+        'display'
+        'footer'
+    ;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: chocolate;
+}
+
+.display {
+    grid-area: display;
+    background-color: darkgoldenrod;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: darkseagreen;
 }

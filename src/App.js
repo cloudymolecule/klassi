@@ -1,6 +1,7 @@
-import './styles/App.css'
+import './styles/app.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Menu from './components/Menu'
+import Display from './components/Display'
 import Footer from './components/Footer'
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <div className='main-container'>
           <Menu />
           <Switch>
-            <h1>Hi</h1>
+            <Display />
           </Switch>
           <Footer />    
         </div>
