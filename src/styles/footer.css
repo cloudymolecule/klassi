@@ -1,6 +1,8 @@
 .footer {
+    background-color: rgb(89, 65, 160);
+    color: #ffff;
     grid-area: footer;
-    background-color: darkseagreen;
     text-align: center;
-    line-height: auto;
+    height: auto;
+    padding-top: 3px;
 }

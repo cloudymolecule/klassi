@@ -4,7 +4,8 @@ import '../styles/welcome.css'
 
 const Welcome = () => {
     return (
-        <><img class='welcome' src={klassiLogo} alt="Klassi Logo"/></>
+        // <><img class='welcome' src={klassiLogo} alt="Klassi Logo"/></>
+        <div>This is welcome</div>
     )
 }
 
