@@ -4,3 +4,11 @@
     text-align: right;
     padding-top: 4px;
 }
+
+.menu-link {
+    font: bold 14px Arial;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 2px 6px 2px 6px;
+    text-align: center;
+}
