@@ -7,6 +7,7 @@ const Menu = () => {
         <div className='menu'>
             <div className='menu-klassi'>KLASSI</div>
             <div className='menu-links'>
+                <Link className='menu-link' to={'/browse'}>Browse</Link>
                 <Link className='menu-link' to={'/search'}>Search</Link>
                 <Link className='menu-link' to={'/recent'}>Recent Listings</Link>
                 <Link className='menu-link' to={'/new-listing'}>New Listing</Link>

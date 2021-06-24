@@ -4,7 +4,7 @@
     text-align: right;
     padding-top: 4px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     padding: 5px;
 }
 
@@ -24,5 +24,5 @@
 
 .menu-links {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }

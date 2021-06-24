@@ -9,6 +9,7 @@ import Recent from './components/Recent'
 import MyAccount from './components/MyAccount'
 import NewListing from './components/NewListing'
 import About from './components/About'
+import Browse from './components/Browse'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Menu />
           <Switch>
             <Route exact path='/' component={Welcome} />
+            <Route exact path='/browse' component={Browse} />
             <Route exact path='/search' component={Search} />
             <Route exact path='/recent' component={Recent} />
             <Route exact path='/my-account' component={MyAccount} />
