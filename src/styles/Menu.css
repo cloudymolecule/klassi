@@ -1,4 +1,6 @@
 .menu {
+    background-color: rgb(89, 65, 160);
     grid-area: menu;
-    background-color: chocolate;
+    text-align: right;
+    padding-top: 4px;
 }
