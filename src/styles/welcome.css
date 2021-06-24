@@ -1,0 +1,8 @@
+.welcome {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
