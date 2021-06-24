@@ -1,7 +1,7 @@
 import './styles/app.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Menu from './components/Menu'
-// import Display from './components/Display'
+import Display from './components/Display'
 import Footer from './components/Footer'
 import Welcome from './components/Welcome'
 import Search from './components/Search'
