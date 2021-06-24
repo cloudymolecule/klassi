@@ -1,5 +1,6 @@
 .footer {
     background-color: rgb(89, 65, 160);
+    font: bold 14px Arial;
     color: #ffff;
     grid-area: footer;
     text-align: center;

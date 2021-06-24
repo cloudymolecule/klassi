@@ -3,6 +3,9 @@
     grid-area: menu;
     text-align: right;
     padding-top: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
 }
 
 .menu-link {
@@ -11,4 +14,15 @@
     color: #ffffff;
     padding: 2px 6px 2px 6px;
     text-align: center;
+}
+
+.menu-klassi {
+    font: bold 20px Arial;
+    color: white;
+    text-align: left;
+}
+
+.menu-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
