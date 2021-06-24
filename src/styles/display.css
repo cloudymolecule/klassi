@@ -1,0 +1,4 @@
+.display {
+    grid-area: display;
+    background-color: darkgoldenrod;
+}

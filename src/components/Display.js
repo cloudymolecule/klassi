@@ -4,7 +4,7 @@ import '../styles/display.css'
 const Display = () => {
     return (
         <div className='display'>
-            <h1>This is Display</h1>
+            <p>This is Display</p>
         </div>
     )
 }
